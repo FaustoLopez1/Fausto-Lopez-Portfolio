@@ -6,6 +6,11 @@
 }
 
 header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(3, 205, 255);
 }
 .full {
@@ -36,12 +41,12 @@ div.picture1 {
   background-image:url("https://www.klaviyo.com/wp-content/uploads/2016/09/abstract-background-1024x273.jpg");
 }
 h1 {
-  font-size: 200%;
+  font-size: 150%;
 }
 
 h2 {
   margin: 0% 0;
-  font-size: 200%;
+  font-size: 100%;
   color: #2145e7;
 
   display:flex;
@@ -195,75 +200,86 @@ p {
     justify-content: space-between;
   }
   .contact-item {
-    min-width: 10rem;
-  }
-  .contact-item.phone {
-    min-width: 15rem;
-  }
-  .contact-item.email {
-    min-width: 30rem;
+    padding-left: 1em;
+    min-width: 1em;
   }
   section ul {
-  max-width: 20%;
-  background-color: rgb(91, 139, 168);
-  margin-left: -4% 0;
-  display:flex;
+    background-color: rgb(91, 139, 168);
+    display:flex;
   }
 }
 
 /* media query for larger screens */
 @media screen and (min-width: 992px) {
+  header{
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+
+  }
   nav ul {
-    min-width: 100%;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;;
   }
   nav {
     display: flex;
     justify-content: space-between;
+    position: absolute right;
   }
   
   h2 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
   }
+  .full {
+    padding-left: 2em;
+    margin-bottom: 2rem;
+    display: flex;
+}
+.work-item{
+  display: flex;
+  flex-wrap: wrap;
+}
 .link-image{
   min-width: 2000%;
   min-height: 200%;
   display: flex;
+  flex-wrap: wrap;
 }
 .link-1{
-  min-width: 2000%;
+  min-width:1000%;
   min-height: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 .link-2{
-  min-width: 2000%;
+  min-width: 1000%;
   min-height: 100%;
 }
 .link-3{
-  min-width: 2000%;
-  min-height: 100%;
+min-width: 1000%;
+min-height: 100%;
 }
-  .full {
-    
-    margin-bottom: 2rem;
-    display: flex;
-  }
+.section {
+  box-sizing: border-box;
+  padding-right: 1rem;
+  border-bottom: none;
+  border-right: 10px solid #643fa7;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 15%;
+}
 
-  .section {
-    box-sizing: border-box;
-    padding-right: 1rem;
-    border-bottom: none;
-    border-right: 10px solid #643fa7;
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    width: 15%;
-  }
-
-  .text-container {
-    padding: 0 1rem;
-  }
+.text-container {
+  padding: 0 1rem;
+}
 }
  
