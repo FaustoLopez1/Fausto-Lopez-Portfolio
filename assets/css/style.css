@@ -88,7 +88,7 @@ h2 div {
 }
 .link-image {
   border: 5px solid rgb(3, 205, 255);
-  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3JA1SjoYHc9Lj1HQGjpLHIqIdiC2_grQOSA&usqp=CAU");
+  background-image:url("https://media.giphy.com/media/Ptkq9WAGW17d8BpYWM/giphy.gif");
   width: 100%;
   height: 10rem;
   display: flex;
@@ -104,7 +104,7 @@ h2 div {
   flex-direction: column;
   opacity: .5;
   transition: all .3s ease-in-out;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrz3gXlwBn8vvysuU0MhXxaRLi9MwlOvn87g&usqp=CAU");
+  background-image: url("https://media.giphy.com/media/4jYtfI0HNg9AUOPKUk/giphy.gif");
 }
 
 .link-2 {
@@ -115,7 +115,7 @@ h2 div {
   flex-direction: column;
   opacity: .5;
   transition: all .3s ease-in-out;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy7J-p3GWyDkM9MZ1w7DGOzSRZQijWuv5fCA&usqp=CAU");
+  background-image: url("https://media.giphy.com/media/klZAjy79a4vlSEXbhK/giphy.gif");
 }
 .link-3 {
   border: 5px solid rgb(3, 205, 255);
@@ -125,7 +125,7 @@ h2 div {
   flex-direction: column;
   opacity: .5;
   transition: all .3s ease-in-out;
-  background-image: url("https://s3.envato.com/files/2dffc9af-ac81-4ccb-9449-f75c9b327896/inline_image_preview.jpg")
+  background-image: url("https://raw.githubusercontent.com/FaustoLopez1/Scheduler/main/Assets/05-third-party-apis-homework-demo.gif")
 }
   .link-image:hover {
   opacity: 1;
